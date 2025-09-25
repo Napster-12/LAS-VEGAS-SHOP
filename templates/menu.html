@@ -127,7 +127,7 @@
         const product = {
           name: `${team} ${type}`,
           price: fixedPrice,
-          img: `/static/images/${team.toLowerCase().replace(/\s/g,"_")}_${type.toLowerCase()}.jpeg`
+          img: `/static${team.toLowerCase().replace(/\s/g,"_")}_${type.toLowerCase()}.jpeg`
         };
         const col = document.createElement('div');
         col.className = 'col-md-4';
